@@ -1,0 +1,120 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	background-image: url("60's-beachstyle.jpeg");
+	}
+body { 
+	font: 85% "Lato", sans-serif;
+	line-height: 1.6;
+	color: #679140; 
+	background: #fff; 
+	margin-left: 50px; 
+	padding-left: 115px;
+	width:70%;
+	text-align: center
+	
+	}
+p { 
+	margin-top: 10px; 
+	text-align: center;
+	width:90%;
+	font-size:1em;
+	font-family: "Lato", sans-serif;
+	color: #679140;
+
+
+	}
+
+
+h1{
+color:#0D0D0D;
+background-color:#91BD68;
+padding:30px;
+width:90%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+font:  100em;
+font-family: "Outfit", sans-serif;
+ font-weight: bold;
+
+}
+
+h3 { 
+	font: italic normal 1.4em "Lato", sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #4D3F28;
+	text-align: center
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration-style: wavy; 
+	color: #F40B9B
+;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration-style:dotted ; 
+	color: #44032B;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #700547;
+	}
+
+
+/* style of first paragraph */
+
+#zen-summary{
+	color:#44032B;
+	width:100%;
+		font-family:"Lato", sans-serif;;
+		padding:10px;
+}
+
+/* side bar align to the right */
+
+aside{
+height:100%;
+width:15%;
+position:fixed;
+top:25px;
+left:75%;
+background-color:#FACD8F
+
+;
+
+
+}
+
+/* links in sidebar */
+
+aside a:link { 
+	font-weight: bold; 
+	text-decoration-style: underline; 
+	color: #fff
+;
+	}
+aside a:visited { 
+	font-weight: bold; 
+	text-decoration-style:dotted ; 
+	color: #44032B;
+	}
+aside a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #700547;
+	}
+
+
